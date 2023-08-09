@@ -2,7 +2,7 @@ import react from 'react'
 import NavBar from './NavBar'
 import BannerBackground from "../Assets/home-banner-background.png"
 import bannerImage from '../Assets/home-banner-image.png'
-// import {fiArrowRight} from 'react-icons/fi'
+import {FiArrowRight} from 'react-icons/fi'
 
 const Home = () =>{
     return <div className='home-container'>
@@ -21,6 +21,12 @@ const Home = () =>{
 peeding, chopping & marinating, so you can cook
 a fresh food.
                 </p>
+                <button className='secondary-button'> 
+                    Order Now  <FiArrowRight/>
+                </button>
+            </div>
+            <div className="home-image-section">
+                <img src={bannerImage} alt="" />
             </div>
         </div>
     </div>
