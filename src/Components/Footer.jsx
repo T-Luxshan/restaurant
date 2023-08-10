@@ -29,8 +29,8 @@ const Footer = () => {
           <span>Work</span>
         </div>
         <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>hello@food.com</span>
+          <span>076 &nbsp;454 &nbsp;1834</span>
+          <span>lucky@gmail.com</span>
           <span>press@food.com</span>
           <span>contact@food.com</span>
         </div>

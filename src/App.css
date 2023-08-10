@@ -6,18 +6,10 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
 
-body {
-  background-color: #f6f6f6;
-}
 
 .navbar-container {
-  /* margin-top: 0px;
-  padding-top: 0px; */
+ 
   margin-left:80px;
   margin-right:80px;
    
@@ -35,14 +27,14 @@ img {
   max-width: 1900px;
   margin: 0rem auto;
 }
-/* body {
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
 body {
   background-color: #f6f6f6;
-} */
+}
 
 nav {
   display: flex;
@@ -51,7 +43,6 @@ nav {
   min-height: 90px;
 }
 .foodie{
-  /* background-color: #e48f0f; */
   color: #fe9e0d;
   font-weight: bolder;
   font-size: larger;
@@ -114,7 +105,6 @@ nav {
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
   max-width: 600px;
 }
 .primary-text {
@@ -206,7 +196,7 @@ nav {
   margin: 6rem 0rem;
 }
 .contact-form-container {
-  background-color: white;
+  background-color: #f6f6f6;
   max-width: 700px;
   width: 100%;
   margin-top: 3rem;
@@ -216,12 +206,21 @@ nav {
   border-radius: 5rem;
 }
 .contact-form-container input {
+  background-color: #f6f6f6;
   flex: 1;
   height: 100%;
   border: none;
   outline: none;
   font-size: 1.3rem;
   padding: 0.5rem 1rem;
+}
+.FooterSytle{
+  background-color: #f6f6f6;
+  
+  padding: 0.01rem;
+  padding-left: 5rem;
+  padding-right: 3px;
+  
 }
 .footer-wrapper {
   margin: 6rem 0rem;
@@ -239,9 +238,6 @@ nav {
   margin-right: 1.25rem;
   color: #585858;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
 .footer-section-two {
   flex: 1;
   display: flex;
@@ -257,82 +253,6 @@ nav {
   font-weight: 600;
   color: #4c4c4c;
   cursor: pointer;
-}
-.testimonial-section-bottom {
-  margin-top: 2rem;
-  background-color: white;
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 750px;
-  border-radius: 2rem;
-  flex-direction: column;
-  text-align: center;
-}
-.testimonial-section-bottom {
-  margin: 2rem auto;
-}
-.testimonial-section-bottom p {
-  font-weight: 700;
-  color: #515151;
-  max-width: 500px;
-  font-size: 1.1rem;
-  margin: 2rem 0rem;
-}
-.testimonials-stars-container svg {
-  margin: 0rem 0.25rem;
-  font-size: 1.5rem;
-  color: #fe9e0d;
-}
-.testimonial-section-bottom h2 {
-  margin-top: 1.5rem;
-}
-.work-section-wrapper {
-  margin-top: 15rem;
-}
-.work-section-top p {
-  text-align: center;
-  max-width: 600px !important;
-}
-.work-section-top h1 {
-  max-width: 700px !important;
-}
-.work-section-top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.work-section-info {
-  width: 290px;
-  min-height: 350px;
-  background-color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 1rem;
-  color: #505050;
-  margin: 1rem 2rem;
-}
-.work-section-info h2 {
-  margin: 1rem 0rem;
-}
-.work-section-bottom {
-  margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.work-section-info p {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  font-weight: 600;
 }
 
 @media (max-width: 1000px) {
