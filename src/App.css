@@ -6,6 +6,15 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
 .navbar-container {
   /* margin-top: 0px;
   padding-top: 0px; */
@@ -26,14 +35,14 @@ img {
   max-width: 1900px;
   margin: 0rem auto;
 }
-body {
+/* body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
 body {
   background-color: #f6f6f6;
-}
+} */
 
 nav {
   display: flex;
